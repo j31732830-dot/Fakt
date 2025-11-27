@@ -8,7 +8,7 @@ from aiogram import Bot, Dispatcher
 from aiogram.filters import Command
 from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
-BOT_TOKEN = "8157782936:AAHhp9dImUyPG53oVqP1F56dOQ2GR1iDgt4"
+BOT_TOKEN = "8092895408:AAGLR6vLDQj-W8ymwT4VJQM9FqLSvGcgzCo"
 FACT_API_URL = "https://uselessfacts.jsph.pl/random.json?language=en"
 TRANSLATE_API_URL = "https://api.mymemory.translated.net/get"
 DATA_FILE = "bot_data.json"
@@ -462,4 +462,5 @@ async def main():
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
+
     asyncio.run(main())
